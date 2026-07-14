@@ -1,0 +1,53 @@
+============================================================
+DATA EXPLORATION SUMMARY
+============================================================
+
+Total records : 10,000
+Total features: 16
+
+Column Names
+------------------------------------------------------------
+- ip_address
+- abuse_confidence_score
+- country_code
+- last_reported_at
+- country_name
+- continent
+- reported_date
+- reported_year
+- reported_month
+- reported_day
+- reported_hour
+- reported_weekday
+- label
+- risk_level
+- severity
+- time_zone_attack
+
+Top 10 Countries
+------------------------------------------------------------
+United States: 4,158
+China: 756
+Unknown: 748
+Germany: 515
+Netherlands: 489
+France: 446
+Singapore: 424
+United Kingdom: 385
+Hong Kong: 340
+Japan: 282
+
+Continent Distribution
+------------------------------------------------------------
+North America: 4,302
+Asia: 2,586
+Europe: 2,113
+Unknown: 748
+South America: 115
+Europe/Asia: 92
+Asia/Europe: 27
+Oceania: 17
+
+Weekday Distribution
+------------------------------------------------------------
+Friday: 10,000
