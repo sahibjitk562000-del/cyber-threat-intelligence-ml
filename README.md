@@ -28,6 +28,14 @@ This project applies machine learning techniques to classify and prioritize mali
 
 **Dataset Link:** [Global Cyber Threat Intelligence Dataset 2026](https://www.kaggle.com/datasets/chuneeb/global-cyber-threat-intelligence-dataset-2026)
 
+---
+
+## 📁 Repository Structure
+├── code/ # All Python scripts
+├── visualizations/ # All charts and images
+├── data/ # Dataset (excluded - available on Kaggle)
+└── report/ # Final report PDF
+
 
 ---
 
@@ -45,7 +53,7 @@ This project applies machine learning techniques to classify and prioritize mali
 
 ## 🔧 Requirements
 
-
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 # Navigate to code folder
@@ -74,17 +82,7 @@ python ml_step5_random_forest.py
 python ml_step6_isolation_forest.py
 python ml_step7_compare.py
 python ml_step8_charts.py
----
 
-📈 Visualizations
-File	Description
-country_chart.png	Top 10 countries with suspicious IPs
-continent_chart.png	Distribution by continent
-weekday_chart.png	Threat reports by day of week
-hour_chart.png	Threat reports by hour
-confusion_matrices.png	Confusion matrices for all models
-feature_importance.png	Feature importance analysis
-model_comparison.png	Model performance comparison
 📝 Author
 Sahibjit Kaur
 Student ID: 25198619
@@ -93,4 +91,3 @@ Birmingham City University
 
 🔗 Dataset Source
 Global Cyber Threat Intelligence Dataset 2026 - Kaggle
-
